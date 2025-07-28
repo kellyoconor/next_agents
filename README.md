@@ -1,6 +1,5 @@
 # next_agents
-A comprehensive collection of specialized AI agents designed to accelerate and enhance every aspect of rapid development. Each agent is an expert in their domain, ready to be invoked when their expertise is needed.
-
+A specialized collection of AI agents designed for a fast-moving innovation team. Built for AI-first organizations using dynamic pod structures (Velocity, Adjacent, Moonshot, Enablement) with a focus on rapid prototyping, validated learning, and impact velocity.
 **📥 Installation**
 Download this repository:
 
