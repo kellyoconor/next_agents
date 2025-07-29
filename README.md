@@ -6,7 +6,7 @@ A focused collection of 4 essential AI agents designed for fast-moving innovatio
 
 1. **Download this repository:**
    ```bash
-   git clone https://github.com/your-org/innovation-agents.git
+   git clone https://github.com/kellyoconor/next_agents.git
    ```
 
 2. **Copy to your Claude Code agents directory:**
