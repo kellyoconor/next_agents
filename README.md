@@ -1,6 +1,6 @@
-# Innovation Team Sub-Agents - Complete Toolkit
+# Innovation Team Sub-Agents 
 
-A focused collection of 4 essential AI agents designed for fast-moving innovation teams. Built for rapid prototyping, validated learning, executive communication, and systematic feature development.
+A focused collection of 4 essential agents designed for fast-moving innovation teams. Built for rapid prototyping, validated learning, executive communication, and systematic feature development.
 
 ## 📥 Installation
 
