@@ -1,6 +1,6 @@
 # Innovation Team Sub-Agents - Starter Pack
 
-A focused collection of 2 essential AI agents designed for fast-moving innovation teams. Built for rapid prototyping, validated learning, and eliminating common innovation bottlenecks.
+A focused collection of 3 essential AI agents designed for fast-moving innovation teams. Built for rapid prototyping, validated learning, and creating professional presentations that command executive attention.
 
 ## 📥 Installation
 
@@ -27,21 +27,23 @@ Agents are automatically available in Claude Code. Simply describe your innovati
 ### Example Usage
 - "We think busy parents would pay for AI meal planning, but we're not sure" → `rapid-validator`
 - "We need to test if users understand our onboarding flow" → `prototype-planner`
+- "Turn our Q4 financial results into a board presentation" → `strategic-presentation-architect`
 - "Can we build real-time collaboration features in 2 weeks?" → `prototype-planner`
-- "Our signup rate is 12% but we don't know what to optimize next" → `rapid-validator`
 
 ## 📁 Agent Categories
 
 ### Essential Innovation Workflow (`core/`)
-The 2 most critical agents for innovation teams:
+The 3 most critical agents for innovation teams:
 - **rapid-validator** - Test assumptions fast and cheap with maximum learning
 - **prototype-planner** - Match prototype approach to learning objectives with AI tool recommendations
+- **strategic-presentation-architect** - Transform data into executive-ready HTML presentations
 
 ## 📋 Complete Agent List
 
 ### Core Innovation Workflow
 - **rapid-validator** - Validate ideas, assumptions, and prototypes with minimal resources
 - **prototype-planner** - Plan rapid prototyping approaches with optimal AI tool selection
+- **strategic-presentation-architect** - Create professional HTML presentations with interactive charts
 
 ## 🎯 Design Philosophy
 
@@ -50,7 +52,12 @@ These agents are built for innovation teams that need to:
 ### Speed & Velocity
 - Move from assumption to validated learning in hours/days, not weeks
 - Eliminate tool selection paralysis with instant AI tool recommendations
-- Generate clear signals quickly with minimal investment
+- Generate clear business signals quickly with minimal investment
+
+### Executive Communication
+- Transform raw data into board-ready presentations in minutes
+- Create professional deliverables that rival expensive consulting work
+- Build credibility with stakeholders through high-quality outputs
 
 ### Learning Optimization
 - Test the riskiest assumptions first with systematic experimentation
@@ -65,13 +72,15 @@ These agents are built for innovation teams that need to:
 ## 💡 Best Practices
 
 ### Agent Collaboration Patterns
-- **Assumption Testing**: `rapid-validator` designs experiments → `prototype-planner` builds the right prototype type
-- **Learning Cycles**: `prototype-planner` creates testable prototype → `rapid-validator` measures results
+- **Validation → Prototyping**: `rapid-validator` designs experiments → `prototype-planner` builds the right prototype type
+- **Research → Presentation**: Gather insights → `strategic-presentation-architect` creates executive summary
+- **Data → Decision**: `strategic-presentation-architect` transforms analysis into compelling narrative for stakeholders
 
 ### Innovation Velocity Tips
 - **Start with validation** before building anything substantial
 - **Use AI tools optimally** - let prototype-planner choose the right tool for your goal
 - **Focus on learning speed** over feature completeness
+- **Create executive-ready outputs** that drive strategic decisions
 - **Measure assumptions tested** not just features built
 
 ## 🔧 Technical Details
@@ -81,7 +90,7 @@ Each agent includes:
 - **name**: Unique identifier for Claude Code
 - **description**: When to use with specific usage examples
 - **tools**: Access to web_search, repl, google_drive_search, etc.
-- **System prompt**: Comprehensive expertise and methodology (500+ words)
+- **System prompt**: Comprehensive expertise and methodology (500-900 words)
 
 ### AI Tool Integration
 The `prototype-planner` includes intelligent recommendations for:
@@ -91,6 +100,14 @@ The `prototype-planner` includes intelligent recommendations for:
 - **Cursor**: AI-assisted development for complex logic
 - **Claude Artifacts**: Data visualization and algorithm testing
 - **Replit**: Collaborative development and experimentation
+
+### Professional Output Generation
+The `strategic-presentation-architect` creates:
+- **Interactive HTML presentations** with Reveal.js framework
+- **Chart.js visualizations** from uploaded data files
+- **Premium design** with consulting-grade styling
+- **Mobile-responsive** presentations that work anywhere
+- **Self-contained files** ready for immediate sharing
 
 ### Usage Examples
 Every agent includes detailed usage examples showing:
@@ -112,6 +129,11 @@ Track innovation effectiveness through:
 - AI tool selection time savings
 - Prototype iteration speed
 
+### Executive Impact
+- Quality of strategic presentations and recommendations
+- Stakeholder engagement and decision velocity
+- Professional credibility of outputs
+
 ### Decision Quality
 - Percentage of assumptions validated before building
 - Prototype-to-insight conversion rate
@@ -129,11 +151,12 @@ Track innovation effectiveness through:
 - **AI tool intelligence** expansion to other agents
 - **Cross-agent workflows** for complex innovation challenges
 - **Real-time learning analytics** and recommendation optimization
+- **Advanced presentation features** (data integration, export options)
 
 ## 🚦 Implementation Strategy
 
-### Phase 1: Core Validation & Prototyping (Current)
-Deploy `rapid-validator` and `prototype-planner` for immediate impact on innovation velocity
+### Phase 1: Core Validation & Communication (Current)
+Deploy all 3 agents for immediate impact on innovation velocity and executive communication
 
 ### Phase 2: Research & Analysis (Next)
 Add `problem-solution-finder` and `user-research-sprinter` based on team usage patterns
@@ -144,27 +167,23 @@ Expand to `technical-feasibility-assessor` and `iteration-advisor` for complete 
 ### Phase 4: AI-Native Innovation (Advanced)
 Integrate AI tool intelligence across all agents for maximum automation and speed
 
-## 📞 Support
-
-For questions, customization help, or sharing success stories:
-- **Internal Teams**: Contact your innovation team leads
-- **Community**: Share patterns and improvements through your organization's knowledge sharing platforms
-- **Technical Issues**: Follow standard Claude Code troubleshooting procedures
-
 ## 🎯 Expected Impact
 
-### Week 1: Tool Selection Elimination
+### Week 1: Immediate Productivity Gains
 - Teams stop debating which AI tool to use for prototypes
 - 2-3 hour time savings per prototype with optimal tool selection
+- Professional presentations generated in minutes instead of days
 
 ### Month 1: Validation Culture
 - Teams systematically test assumptions before building
 - 50% reduction in time from idea to validated learning
+- Executive stakeholders receive higher quality strategic materials
 
 ### Quarter 1: Innovation Velocity
 - Multiple prototype iterations per week instead of per month
 - Clear learning signals that drive strategic decisions
+- Professional credibility that unlocks larger innovation investments
 
 ---
 
-*Start with 2 essential agents. Learn from usage. Expand based on real team needs.*
+*Start with 3 essential agents. Learn from usage. Expand based on real team needs.*
