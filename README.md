@@ -1,8 +1,18 @@
-# Innovation Team Sub-Agents - Complete Toolkit
+# Claude Code Sub-Agents for Product Builders
 
-# Claude Code Sub-Agents
+A collection of 4 specialized sub-agents designed for hybrid product/engineers who build products end-to-end - from concept validation to stakeholder presentation.
 
-A collection of 4 specialized sub-agents for Claude Code that handle the complete product development workflow - from planning to presentation.
+## Who This Is For
+
+**Product builders who code** - the hybrid product/engineers who:
+- 🚀 Build products from idea to launch (not just implement tickets)
+- 🧪 Need to validate concepts before heavy development investment
+- 💼 Present progress to stakeholders, investors, and users
+- 📋 Plan features and break down complex product requirements
+- 🎨 Create prototypes for user testing and concept validation
+- 📖 Document products for non-technical users and team members
+
+**Not for** pure developers who focus solely on implementation within existing codebases.
 
 ## Quick Start
 
@@ -10,156 +20,172 @@ A collection of 4 specialized sub-agents for Claude Code that handle the complet
 2. Use `/agents` command to manage and configure
 3. Agents will activate automatically based on your requests
 
-## The 4 Core Agents
+## The 4 Product Building Agents
 
 ### 🎯 `ai-dev-task-master`
-**Creates comprehensive development plans from feature requests**
+**Transforms product ideas into structured development plans**
 
-- Transforms complex features into detailed PRDs and structured task breakdowns
-- Provides architectural guidance with code examples
-- Researches best practices and analyzes existing codebases
-- Delivers complete roadmaps ready for implementation
+Perfect for breaking down that ambitious feature idea into actionable development work.
 
-**Example:** *"Build user authentication with social logins"* → Complete PRD + 47 structured development tasks
+- Creates comprehensive PRDs from rough product concepts
+- Generates structured task breakdowns with clear implementation order
+- Provides architectural guidance and identifies technical dependencies
+- Researches industry patterns and analyzes existing product architecture
+
+**Product Builder Scenario:** *"I want to add AI-powered expense categorization to my fintech app"* → Complete PRD + 47 structured development tasks with technical guidance
 
 ---
 
 ### 🚀 `prototype-builder` 
-**Builds production-ready interactive prototypes**
+**Builds testable product prototypes for validation**
 
-- Creates sophisticated HTML prototypes using modern web technologies
-- Professional iconography with Ionicons (1,300+ icons)
-- Interactive components with smooth animations and responsive design
-- Delivers working prototypes that feel like real products
+Essential for testing product concepts before committing to full development.
 
-**Example:** *"Create a dashboard for expense tracking"* → Complete interactive prototype with charts and navigation
+- Creates sophisticated interactive prototypes that feel like real products
+- Uses professional iconography (Ionicons) and modern web technologies
+- Responsive design with smooth animations and micro-interactions
+- Perfect for user testing, stakeholder demos, and investor presentations
+
+**Product Builder Scenario:** *"I need to test if users understand my onboarding flow"* → Working interactive prototype ready for user testing
 
 ---
 
 ### 📚 `docs-expert`
-**Creates clear, practical documentation**
+**Creates user-facing product documentation**
 
-- Generates complete documentation files with working examples
-- API references, user guides, tutorials, and technical documentation  
-- Progressive complexity with practical examples throughout
-- Professional formatting ready for immediate use
+Bridges the gap between technical implementation and user understanding.
 
-**Example:** *"Document our authentication API"* → Complete API docs with examples and integration guides
+- Generates complete user guides, API documentation, and feature explanations
+- Progressive complexity that works for both technical and non-technical audiences
+- Working examples and practical use cases throughout
+- Professional formatting ready for customer-facing documentation
+
+**Product Builder Scenario:** *"I need to document our API for third-party developers"* → Complete API docs with examples and integration guides
 
 ---
 
 ### 📊 `presentation-architect`
-**Builds professional HTML presentations**
+**Builds data-driven stakeholder presentations**
 
-- Creates complete presentation files using Reveal.js and Chart.js
-- Interactive data visualizations from uploaded files
-- Professional styling with speaker notes and mobile responsiveness
-- Self-contained files ready for immediate presentation
+Turn your product metrics and progress into compelling stakeholder communications.
 
-**Example:** *"Present Q4 results to the board"* → Professional HTML presentation with interactive charts
+- Creates professional HTML presentations with interactive data visualizations
+- Processes uploaded data (CSV, Excel) into Chart.js visualizations
+- Self-contained presentations ready for board meetings or investor updates
+- Mobile-responsive with speaker notes and professional styling
 
-## Workflow Examples
+**Product Builder Scenario:** *"Present our user growth metrics to investors"* → Professional presentation with interactive charts and executive summary
 
-### Complete Feature Development
+## Product Development Workflows
+
+### 💡 Concept to Launch
 ```
-1. ai-dev-task-master: "Plan user onboarding system"
-   → Get PRD + task breakdown
+1. ai-dev-task-master: "Plan social login feature"
+   → Get comprehensive development roadmap
 
-2. prototype-builder: "Create onboarding prototype" 
-   → Get working interactive prototype
+2. prototype-builder: "Create login flow prototype" 
+   → Get testable prototype for user validation
 
-3. docs-expert: "Document the onboarding API"
-   → Get complete documentation
+3. [Build the actual feature based on validated prototype]
 
-4. presentation-architect: "Create stakeholder presentation"
-   → Get professional presentation
-```
+4. docs-expert: "Document authentication for developers"
+   → Get customer-facing API documentation
 
-### Validation & Testing
-```
-1. prototype-builder: "Build concept prototype for testing"
-   → Get testable prototype
-
-2. docs-expert: "Create user testing guide"  
-   → Get testing documentation
-   
-3. presentation-architect: "Present testing results"
-   → Get results presentation
+5. presentation-architect: "Present feature impact metrics"
+   → Get stakeholder presentation showing results
 ```
 
-## Agent Capabilities
+### 🧪 Rapid Validation Cycle
+```
+1. prototype-builder: "Build concept prototype for user testing"
+   → Get working prototype
 
-| Agent | Input | Output | Tools Used |
-|-------|-------|--------|------------|
-| `ai-dev-task-master` | Feature requests | PRDs + Task lists + Code examples | `repl`, `google_drive_search`, `web_search` |
-| `prototype-builder` | Concept descriptions | Working HTML prototypes | `repl` |
-| `docs-expert` | Documentation needs | Complete documentation files | `repl`, `google_drive_search`, `web_search` |
-| `presentation-architect` | Data + presentation needs | Professional HTML presentations | `repl`, `google_drive_search` |
+2. [Test with actual users]
 
-## Installation
+3. prototype-builder: "Iterate based on user feedback"
+   → Get improved prototype
 
-### Project-Level (Recommended)
+4. presentation-architect: "Present validation results"
+   → Get stakeholder presentation with learnings
+```
+
+### 📈 Feature Planning & Execution
+```
+1. ai-dev-task-master: "Break down marketplace feature"
+   → Get structured development plan
+
+2. [Execute development in phases]
+
+3. docs-expert: "Create user guide for marketplace"
+   → Get user-facing documentation
+
+4. presentation-architect: "Show marketplace adoption metrics"
+   → Get results presentation for stakeholders
+```
+
+## When Product Builders Use Each Agent
+
+| Product Challenge | Agent Solution | Typical Output |
+|------------------|----------------|----------------|
+| "This feature idea is too complex to start coding" | `ai-dev-task-master` | Structured development plan with clear phases |
+| "I need to test this concept with users first" | `prototype-builder` | Interactive prototype for user testing |
+| "Users don't understand how to use this feature" | `docs-expert` | Clear user guides and tutorials |
+| "I need to show progress to investors/stakeholders" | `presentation-architect` | Professional presentation with metrics |
+
+## Product Builder Personas
+
+### 🦄 **Solo Founder**
+Building an MVP and wearing all hats - PM, designer, engineer, marketer
+- Uses all 4 agents throughout the product development cycle
+- Relies heavily on prototyping for validation before building
+- Needs professional presentations for fundraising
+
+### 👥 **Small Team Technical Lead** 
+Leading product development in a 2-5 person startup
+- Uses task-master for feature planning and team coordination
+- Creates prototypes for stakeholder alignment
+- Documents features for non-technical team members
+
+### 🛠️ **Product Engineer**
+Technical team member who bridges product and engineering
+- Breaks down product requirements into technical tasks
+- Builds prototypes for design and user research collaboration
+- Creates technical documentation for product features
+
+### 🚀 **Indie Hacker**
+Building products independently for specific markets
+- Heavy prototype usage for market validation
+- Documentation for users and potential customers
+- Presentations for partnerships and business development
+
+## Installation & Setup
+
+### Project-Level (Recommended for product teams)
 ```bash
-# Copy agents to your project
 cp agents/*.md .claude/agents/
 ```
 
-### User-Level  
+### User-Level (For individual product builders)
 ```bash
-# Copy agents to your user directory
 cp agents/*.md ~/.claude/agents/
 ```
 
-### Verification
+### Verify Installation
 ```bash
-# List available agents
 claude /agents
 ```
 
-## Best Practices
+## Product Development Best Practices
 
-### When to Use Each Agent
-
-**Use `ai-dev-task-master` when:**
-- Breaking down complex features into manageable tasks
-- Creating technical requirements and specifications
-- Planning development workflows and architecture
-
-**Use `prototype-builder` when:**
-- Testing concepts with interactive demos
-- Creating stakeholder presentations that need interaction
-- Building proof-of-concepts for validation
-
-**Use `docs-expert` when:**  
-- Creating API documentation or user guides
-- Writing technical tutorials and getting started guides
-- Documenting complex features or processes
-
-**Use `presentation-architect` when:**
-- Presenting data-driven insights to stakeholders
-- Creating board presentations or investor decks
-- Visualizing metrics, results, or strategic analysis
-
-### Agent Chaining
-Agents are designed to work together in workflows:
-- `ai-dev-task-master` → `prototype-builder` (plan then build)
-- `prototype-builder` → `docs-expert` (build then document)  
-- Any agent → `presentation-architect` (create then present)
-
-## Technical Details
-
-- **File Format**: Markdown with YAML frontmatter
-- **Context**: Each agent uses separate context windows  
-- **Tools**: Agents inherit tools from main thread unless specified
-- **Priority**: Project-level agents override user-level agents
+- **Start with validation**: Use `prototype-builder` before heavy development investment
+- **Plan before building**: Use `ai-dev-task-master` to avoid scope creep and technical debt
+- **Document as you go**: Use `docs-expert` to create user-facing documentation alongside development
+- **Communicate progress**: Use `presentation-architect` to keep stakeholders aligned and engaged
 
 ## Contributing
 
-1. Test agents thoroughly with realistic use cases
-2. Ensure outputs are immediately usable without additional setup
-3. Follow the established quality standards for each agent type
-4. Update documentation with new capabilities or workflows
+Contributions should focus on real product building workflows and challenges. Test with actual product development scenarios, not just technical implementation tasks.
 
 ## License
 
-MIT License - Use freely in your projects and share with your team.
+MIT License - Build great products!
